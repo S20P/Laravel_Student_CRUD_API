@@ -1,0 +1,241 @@
+{
+	"id": "d5befb96-45ad-1b5d-56f6-43ff7cd20f55",
+	"name": "Laravel-Rest-API",
+	"description": "",
+	"order": [
+		"a9a602c1-e36e-5fb5-0142-cb82bcee89fc",
+		"fdf55406-50d6-480d-fe7f-2a41028f04f0",
+		"118b9fa0-25e8-e8c8-eadc-2e664b007760",
+		"cf908f7f-2f33-d1ce-5173-b6f42ec02eb7",
+		"f394d1ae-e4f4-e851-8873-9e32a7688207",
+		"c66f8896-e813-3e63-1471-130a497e80e8",
+		"c36a99b4-3b9b-b6d0-639a-c43a01c24674"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1537338288033,
+	"owner": "952106",
+	"public": false,
+	"requests": [
+		{
+			"id": "118b9fa0-25e8-e8c8-eadc-2e664b007760",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/student",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d5befb96-45ad-1b5d-56f6-43ff7cd20f55",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/student",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1537358433479,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a9a602c1-e36e-5fb5-0142-cb82bcee89fc",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/products",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d5befb96-45ad-1b5d-56f6-43ff7cd20f55",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/products",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1537338305458,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c36a99b4-3b9b-b6d0-639a-c43a01c24674",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/student/delete/21",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "d5befb96-45ad-1b5d-56f6-43ff7cd20f55",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/student/delete/21",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1537359784695,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c66f8896-e813-3e63-1471-130a497e80e8",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/student/edit/22",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "savan222",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "savan'@gmail.com2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "7777777",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537359040151,
+			"name": "http://localhost:8000/api/student/edit/22",
+			"description": "",
+			"collectionId": "d5befb96-45ad-1b5d-56f6-43ff7cd20f55",
+			"responses": []
+		},
+		{
+			"id": "cf908f7f-2f33-d1ce-5173-b6f42ec02eb7",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/student/21",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537358926608,
+			"name": "http://localhost:8000/api/student/4",
+			"description": "",
+			"collectionId": "d5befb96-45ad-1b5d-56f6-43ff7cd20f55",
+			"responses": []
+		},
+		{
+			"id": "f394d1ae-e4f4-e851-8873-9e32a7688207",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/student/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "satish",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "satish6073@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "879878999",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1537358976487,
+			"name": "http://localhost:8000/api/student/create",
+			"description": "",
+			"collectionId": "d5befb96-45ad-1b5d-56f6-43ff7cd20f55",
+			"responses": []
+		},
+		{
+			"id": "fdf55406-50d6-480d-fe7f-2a41028f04f0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/products/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d5befb96-45ad-1b5d-56f6-43ff7cd20f55",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/products/3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1537338328088,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
